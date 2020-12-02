@@ -1,5 +1,7 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { useField } from '@unform/core';
+
+import '../../styles/input.css';
 
 export default function Input({ name, ...rest }) {
     const inputRef = useRef(null);
@@ -14,6 +16,10 @@ export default function Input({ name, ...rest }) {
     }, [fieldName, registerField]);
 
     return(
-        <input ref={inputRef} defaultValue={defaultValue} {...rest} />
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <input ref={inputRef} defaultValue={defaultValue} {...rest} />
+        
+            { error && <span style={{ marginTop: -9, marginBottom: 10, color: "#F00" }}>{error}</span> }
+        </div>
     );
 }
