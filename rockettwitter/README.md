@@ -1,28 +1,20 @@
-# Adonis API application
+<h1 align="center">
+    Rockettwitter - Rocketseat
+</h1>
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+<a href="https://www.youtube.com/watch?v=aysgHRmzG3w"> video - Rocketseat </a> 
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+<hr>
 
-## Setup
+## 🎯 Objective
 
-Use the adonis command to install the blueprint
+Iniciando com AdonisJS, um framework completo para NodeJS - produção de uma aplicação simples em AdonisJS realizando cadastro e autenticação de usuários em uma API REST com JWT token.
 
-```bash
-adonis new yardstick --api-only
-```
+## 🚀Techs
 
-or manually clone the repo and then run `npm install`.
+- [x] Adonis
+- [x] PostgreSQL
 
+## 💻 Usage
 
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+1. Run `adonis serve --dev`.<br />
