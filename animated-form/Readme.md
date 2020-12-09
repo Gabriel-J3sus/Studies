@@ -55,3 +55,5 @@ podemos ter múltiplas animações no mesmo elemento
 [Site para criar animações](http://animista.net/play/basic/scale-up)
 
 [Site para criar cubic Bézier timming](https://matthewlein.com/tools/ceaser)
+
+[Video - Rocketseat](https://www.youtube.com/watch?v=GykTLqODQuU)
