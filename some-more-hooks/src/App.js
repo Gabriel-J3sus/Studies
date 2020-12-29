@@ -1,17 +1,18 @@
 import React, { useState } from 'react';
 
-import Effect from './examples/Effect';
+import Ref from './examples/Ref';
 
 function App() {
-  const [hidden, setHidden] = useState(false);
+  // const [hidden, setHidden] = useState(false);
 
-  setTimeout(() => {
-    setHidden(true);
-  }, 3000);
+  // setTimeout(() => {
+  //   setHidden(true);
+  // }, 3000);
   
   return (
     <>
-      {!hidden && <Effect />}
+      {/* {!hidden && <Effect />} */}
+      <Ref />
     </>
   );
 }
