@@ -14,6 +14,7 @@ Learning what and how to create a PWA (Progressive web app) using react native w
 
 - [x] React Native
 - [x] Typescript
+- [x] Expo
 
 ## 💻 Usage
 
