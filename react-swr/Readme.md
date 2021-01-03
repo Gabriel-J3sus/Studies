@@ -8,7 +8,7 @@
 
 ## 🎯 Objective
 
-Learning how to use SWR.
+Learning how to use SWR `stale-while-revalidate` a HTTP cache invalidation strategy. SWR is a strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data
 
 ## 🚀Techs
 
