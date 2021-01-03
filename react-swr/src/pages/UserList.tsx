@@ -1,5 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useCallback } from 'react';
 import { Link } from 'react-router-dom';
+import { mutate as mutateGlobal } from 'swr';
+import { useFetch } from '../hooks/useFetch';
+import api from '../server/api';
 
 interface User {
   id: number;
@@ -7,15 +10,26 @@ interface User {
 }
 
 const UserList: React.FC = () => {
-  const [data, setData] = useState<User[]>([]);
+  const { data, mutate } = useFetch<User[]>('users');
 
-  useEffect(() => {
-    fetch('http://localhost:3333/users').then(response => {
-      response.json().then(users => {
-        setData(users);
-      })
+  const handleNameChange = useCallback((id: number) => {
+    api.put(`users/${id}`, { name: 'Clebão' });
+
+    const updatedUsers = data?.map(user => {
+      if (user.id === id) {
+        return { ...user, name: 'Clebão' }
+      }
+
+      return user;
     })
-  }, [])
+
+    mutate(updatedUsers, false);
+    mutateGlobal(`users/${id}`, { id, name: 'Clebão' });
+  }, [data, mutate]);
+
+  if (!data) {
+    return <p>Carregando...</p>
+  }
 
   return (
     <ul>
@@ -24,6 +38,9 @@ const UserList: React.FC = () => {
           <Link to={`/users/${user.id}`}>
             {user.name}
           </Link>
+          <button type="button" onClick={() => handleNameChange(user.id)}>
+            Alterar nome
+          </button>
         </li>
       ))}
     </ul>
