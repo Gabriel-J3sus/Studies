@@ -27,6 +27,7 @@ Created for the purpose of storing everything that I'm studying.
 - [PerfApp](https://github.com/Gabriel-J3sus/Studies/tree/main/perfapp)
 - [PWA-Expo](https://github.com/Gabriel-J3sus/Studies/tree/main/pwaexpo)
 - [React-Context-Api](https://github.com/Gabriel-J3sus/Studies/tree/main/react-context-api)
+- [React-Native-Animations](https://github.com/Gabriel-J3sus/Studies/tree/main/react-native-animations)
 - [React-SWR](https://github.com/Gabriel-J3sus/Studies/tree/main/react-swr)
 - [ReactRef](https://github.com/Gabriel-J3sus/Studies/tree/main/reactref)
 - [RnLottie](https://github.com/Gabriel-J3sus/Studies/tree/main/rnlottie)
