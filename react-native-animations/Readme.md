@@ -1,5 +1,5 @@
 <h1 align="center">
-    ReactRef - Code/Drops #45
+    Animations - Code/Drops #45
 </h1>
 
 <a href="https://www.youtube.com/watch?v=6uixYHh7XEc&list=PL85ITvJ7FLohhULgUFkYBf2xcXCG6yfVV&index=13"> Code/Drops #45 - Rocketseat </a>
