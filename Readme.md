@@ -21,6 +21,7 @@ Created for the purpose of storing everything that I'm studying.
 - [Authrm](https://github.com/Gabriel-J3sus/Studies/tree/main/authrm)
 - [Git-Flow](https://github.com/Gabriel-J3sus/Studies/tree/main/git-flow)
 - [Hooks](https://github.com/Gabriel-J3sus/Studies/tree/main/hooks)
+- [LocalStorage](https://github.com/Gabriel-J3sus/Studies/tree/main/localstorage)
 - [Masterclass-typescript](https://github.com/Gabriel-J3sus/Studies/tree/main/masterclass-typescript)
 - [Pagination](https://github.com/Gabriel-J3sus/Studies/tree/main/pagination)
 - [Percentage-Reading-Bar](https://github.com/Gabriel-J3sus/Studies/tree/main/percentageReadingBar)
