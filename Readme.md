@@ -36,6 +36,7 @@ Created for the purpose of storing everything that I'm studying.
 - [Route-auth](https://github.com/Gabriel-J3sus/Studies/tree/main/route-auth)
 - [Solid-Api](https://github.com/Gabriel-J3sus/Studies/tree/main/solidApi)
 - [Some-more-hooks](https://github.com/Gabriel-J3sus/Studies/tree/main/some-more-hooks)
+- [TS-Auth](https://github.com/Gabriel-J3sus/Studies/tree/main/ts-auth)
 - [TSNode](https://github.com/Gabriel-J3sus/Studies/tree/main/tsnode)
 - [UnformWeb](https://github.com/Gabriel-J3sus/Studies/tree/main/unformweb)
 - [Youtube-Challenge-next-stripe](https://github.com/Gabriel-J3sus/Studies/tree/main/youtube-challenge-next-stripe)
