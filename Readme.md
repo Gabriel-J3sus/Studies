@@ -34,6 +34,7 @@ Created for the purpose of storing everything that I'm studying.
 - [RnLottie](https://github.com/Gabriel-J3sus/Studies/tree/main/rnlottie)
 - [RocketTwitter](https://github.com/Gabriel-J3sus/Studies/tree/main/rockettwitter)
 - [Route-auth](https://github.com/Gabriel-J3sus/Studies/tree/main/route-auth)
+- [Serie-node](https://github.com/Gabriel-J3sus/Studies/tree/main/serie-node)
 - [Solid-Api](https://github.com/Gabriel-J3sus/Studies/tree/main/solidApi)
 - [Some-more-hooks](https://github.com/Gabriel-J3sus/Studies/tree/main/some-more-hooks)
 - [TS-Auth](https://github.com/Gabriel-J3sus/Studies/tree/main/ts-auth)
