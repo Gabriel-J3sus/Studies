@@ -22,6 +22,7 @@ Created for the purpose of storing everything that I'm studying.
 - [Git-Flow](https://github.com/Gabriel-J3sus/Studies/tree/main/git-flow)
 - [Hooks](https://github.com/Gabriel-J3sus/Studies/tree/main/hooks)
 - [LocalStorage](https://github.com/Gabriel-J3sus/Studies/tree/main/localstorage)
+- [maratona-discover](https://github.com/Gabriel-J3sus/Studies/tree/main/maratona-discover)
 - [Masterclass-typescript](https://github.com/Gabriel-J3sus/Studies/tree/main/masterclass-typescript)
 - [Pagination](https://github.com/Gabriel-J3sus/Studies/tree/main/pagination)
 - [Percentage-Reading-Bar](https://github.com/Gabriel-J3sus/Studies/tree/main/percentageReadingBar)
