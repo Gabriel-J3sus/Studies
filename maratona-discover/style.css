@@ -1,5 +1,8 @@
 :root {
     --dark-blue: #363f5f;
+    --green: #49AA26;
+    --light-green: #3dd705;
+    --red: #e92929;
 }
 
 * {
@@ -8,9 +11,26 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 93.75%; /* 15px */
+}
+
 body {
     background: #f0f2f5;
     font-family: 'Poppins', sans-serif;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
 }
 
 .container {
@@ -19,14 +39,68 @@ body {
     margin: auto;
 }
 
+
 /* TITLES */
 h2 {
     margin-top: 3.2rem;
     margin-bottom: 0.8rem;
     color: var(--dark-blue);
-
+    
     font-weight: 400;
 }
+
+/*LINKS AND BUTTONS */
+a {
+    color: var(--green);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--light-green);
+}
+
+.button.new {
+    display: inline-block;
+    margin-bottom: 0.8rem;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+
+    border: none;
+
+    color: #FFF;
+    background: var(--green);
+    border-radius: 0.25rem;
+    cursor: pointer;
+
+    padding: 0;
+
+}
+
+button:hover {
+    background: var(--light-green);
+}
+
+.button.cancel {
+    color: var(--red);
+    border: 2px var(--red) solid;
+    border-radius: 0.25rem;
+
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0.6;
+}
+
+.button.cancel:hover {
+    opacity: 1;
+}
+
 
 header {
     background: #2D4A22;
@@ -61,6 +135,10 @@ header {
 .card h3 {
     font-weight: 400;
     font-size: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card p {
@@ -72,19 +150,30 @@ header {
 }
 
 .card.total {
-    background: #49AA26;
+    background: var(--green);
     color: #FFF;
+}
+
+#transaction {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
 }
 
 #data-table {
     width: 100%;
     border-spacing: 0 0.5rem;
-    color: #969cb3
+    color: #969cb3;
 }
 
 table thead th:first-child, 
 table tbody td:first-child {
     border-radius: 0.25rem 0 0 0.25rem;
+}
+
+table thead th:last-child, 
+table tbody td:last-child {
+    border-radius: 0 0.25rem 0.25rem 0;
 }
 
 table th {
@@ -119,14 +208,97 @@ td.income {
 }
 
 td.expense {
-    color: #e92929;
+    color: var(--red);
 }
 
+/*MODAL*/
+.modal-overlay {
+    width: 100%;
+    height: 100%;
 
+    background: rgba(0,0,0, 0.7);
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    visibility: hidden;
+
+    z-index: 10;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal {
+    background: #f0f2f5;
+    padding: 2.4rem;
+    position: relative;
+    z-index: 1;
+}
+
+/*FORM*/
+#form {
+    max-width: 500px;
+}
+
+#form h2 {
+    margin-top: 0;
+}
+
+input {
+    border: none;
+    border-radius: 0.2rem;
+
+    padding: 0.8rem;
+
+    width: 100%;
+}
+
+.input-group {
+    margin-top: 0.8rem;
+}
+
+.input-group small {
+    opacity: 0.4;
+}
+
+.input-group.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-group.actions .button,
+.input-group.actions button {
+    width: 48%;
+}
+
+/*FOOTER*/
 footer {
     text-align: center;
     padding: 4rem 0 2rem;
     color: var(--dark-blue);
 
     opacity: 0.6;
+}
+
+/*RESPONSIVE*/
+
+@media(min-width: 800px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    #balance {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+    }
 }
