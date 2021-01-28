@@ -1,5 +1,6 @@
-import { Grid, Flex, Heading, Input, Link, Button, Text } from "@chakra-ui/react";
+import { Grid, Flex, Heading, Link, Button, Text } from "@chakra-ui/react";
 
+import Input from '../components/Input';
 import Divider from '../components/Divider';
 
 export default function Home() {
@@ -37,18 +38,10 @@ export default function Home() {
         padding={16}
       >
         <Input
-          height="50px"
-          backgroundColor="gray.800"
-          focusBorderColor="purple.500"
-          borderRadius="sm"
           placeholder="E-mail"
         />
         
         <Input
-          height="50px"
-          backgroundColor="gray.800"
-          focusBorderColor="purple.500"
-          borderRadius="sm"
           placeholder="Senha"
           marginTop={2}
         />

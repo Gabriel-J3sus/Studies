@@ -36,6 +36,7 @@ Created for the purpose of storing everything that I'm studying.
 - [RocketTwitter](https://github.com/Gabriel-J3sus/Studies/tree/main/rockettwitter)
 - [Route-auth](https://github.com/Gabriel-J3sus/Studies/tree/main/route-auth)
 - [Serie-node](https://github.com/Gabriel-J3sus/Studies/tree/main/serie-node)
+- [SkylabNext](https://github.com/Gabriel-J3sus/Studies/tree/main/skylabnext)
 - [Solid-Api](https://github.com/Gabriel-J3sus/Studies/tree/main/solidApi)
 - [Some-more-hooks](https://github.com/Gabriel-J3sus/Studies/tree/main/some-more-hooks)
 - [TS-Auth](https://github.com/Gabriel-J3sus/Studies/tree/main/ts-auth)
