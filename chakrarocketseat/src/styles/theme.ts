@@ -1,7 +1,10 @@
 import { theme } from '@chakra-ui/react';
+import { createBreakpoints } from "@chakra-ui/theme-tools"
 
 const customTheme = {
     ...theme,
+    breakpoints: createBreakpoints({ sm: '30em', md: '48em', lg: '62em', xl: "80em"}),
+    
     fonts: {
         body: 'Roboto, system-ui, sans-serif',
         heading: 'Roboto, system-ui, sans-serif',

@@ -9,7 +9,7 @@ function Dashboard() {
         <Flex
             width="100%"
             backgroundColor="gray.800"
-            paddingTop="72px"
+            paddingTop={{base: "60px", md: "72px"}}
             align="center"
             justify="center"
         >

@@ -13,6 +13,7 @@ Using Chakra-Ui to re-create the rocketseat main page.
 - [x] Javascript
 - [x] Typescript
 - [x] Chakra-ui
+- [x] React-icons
 
 
 ## 💻 Usage
