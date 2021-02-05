@@ -19,7 +19,13 @@ const customTheme = {
     fontSizes: {
         ...theme.fontSizes,
         sm: '12px',
-        md: '16px'
+        md: '15px',
+        lg: '16px',
+    },
+    lineHeights: {
+        ...theme.lineHeights,
+        md: '25px',
+        lg: '26px',
     },
     radii: {
         ...theme.radii,

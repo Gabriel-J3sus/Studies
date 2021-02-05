@@ -10,10 +10,11 @@ function Header() {
     return (
         <Flex
             top="0"
+            left="0"
+            right="0"
             position="fixed"
-            width="100vw"
-            height="72px"
-            paddingX="38px"
+            height={{base: "60px", lg: "72px"}}
+            paddingX={{base: "20px", lg: "38px"}}
             zIndex="999"
             justify="center"
             align="center"
@@ -30,7 +31,7 @@ function Header() {
                 <Image 
                     src={logo} 
                     alt="logo"
-                    width="192px"
+                    width={{base: "90px", md: "112px", lg: "192px"}}
                     height="37px"
                     cursor="pointer"
                 />
@@ -42,7 +43,7 @@ function Header() {
                     <Box
                         width="46px"
                         height="46px"
-                        marginRight="14px"
+                        marginRight={{base: "0px", md: "14px"}}
                         display="flex"
                         alignItems="center"
                         justifyContent="center"
@@ -51,12 +52,12 @@ function Header() {
                         transition="all 0.2s ease 0s"
                         _hover={{ backgroundColor: 'gray.900', color: '#FFF' }}
                     >
-                        <AiOutlineSearch  size={24} />
+                        <AiOutlineSearch size={24} />
                     </Box>
                     <Box
                         width="46px"
                         height="46px"
-                        marginRight="14px"
+                        marginRight={{base: "0px", md: "14px"}}
                         display="flex"
                         alignItems="center"
                         justifyContent="center"
@@ -65,12 +66,12 @@ function Header() {
                         transition="all 0.2s ease 0s"
                         _hover={{ backgroundColor: 'gray.900', color: '#FFF' }}
                     >
-                        <MdPersonAdd color="#a8a8b3" size={24}/>
+                        <MdPersonAdd size={24}/>
                     </Box>
                     <Box
                         width="46px"
                         height="46px"
-                        marginRight="14px"
+                        marginRight={{base: "0px", md: "14px"}}
                         display="flex"
                         alignItems="center"
                         justifyContent="center"
@@ -79,18 +80,27 @@ function Header() {
                         transition="all 0.2s ease 0s"
                         _hover={{ backgroundColor: 'gray.900', color: '#FFF' }}
                     >
-                        <BsFillBellFill color="#a8a8b3" size={24}/>
+                        <BsFillBellFill size={24}/>
                     </Box>
                     
                     <Flex
                         align="center"
                         cursor="pointer"
                     >
-                        <Heading fontSize="md" fontWeight="bold" marginRight="12px" color="gray.300">Gabriel Araújo de Jesus</Heading>
+                        <Heading 
+                            display={{base: "none", lg: "block"}}
+                            maxW={{lg: "122px", xl: "175px"}}
+                            fontSize="md" 
+                            fontWeight="bold" 
+                            marginRight={{base: "0", lg: "12px"}}
+                            color="gray.300"
+                        >
+                            Gabriel Araújo de Jesus
+                        </Heading>
                         
                         <Flex 
-                            width="52px"
-                            height="52px"
+                            width={{base: "40px", lg: "52px"}}
+                            height={{base: "40px", lg: "52px"}}
                             padding="2px"
                             align="center"
                             justify="center"

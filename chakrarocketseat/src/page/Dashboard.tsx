@@ -8,8 +8,9 @@ function Dashboard() {
     return (
         <Flex
             width="100%"
+            height="100%"
             backgroundColor="gray.800"
-            paddingTop={{base: "60px", md: "72px"}}
+            paddingTop={{base: "60px", lg: "72px"}}
             align="center"
             justify="center"
         >

@@ -13,8 +13,8 @@ function Card({ title, description, soon, borderColor }: CardProps) {
         <Box
             position="relative"
             width="100%"
-            padding="64px 48px"
-            display="block"
+            padding={{base: "30px", md: "48px", lg: "64px 48px", xl: "64px"}}
+            display="block" 
             justify="center"
             align="center"
             backgroundColor="gray.700"
@@ -25,23 +25,39 @@ function Card({ title, description, soon, borderColor }: CardProps) {
             _hover={title !== "Ignite" ? { transform: "translateY(-7px)" } : { display: 'block' }}
         >
             <Flex
-                height="470px"
+                width={{sm: "312px", md: "432px", lg: "656px", xl: "311px"}}
+                height={{sm: "auto", xl: "520px"}}
                 align="center"
                 direction="column"
             >
-                <Heading color="gray.300" marginY="30px">{title}</Heading>
+                <Heading 
+                    color="gray.300" 
+                    marginTop={{sm: "10px", xl: "105px"}}
+                    marginBottom={{sm: "20px", xl: "55px"}}
+                >
+                    {title}
+                </Heading>
 
-                <Text color="gray.600" max-width="270px" lineHeight="26px">{description}</Text>
+                <Text 
+                    fontSize={{sm: "md", lg: "lg"}}
+                    color="gray.600" 
+                    maxW={{lg: "270px"}}
+                    lineHeight={{sm: "md", lg: "lg"}}
+                >
+                    {description}
+                </Text>
 
             </Flex>
             {soon ? (
                 <Container
                     position="absolute"
                     zIndex="0"
-                    width="100%"
+                    maxW="100%"
                     height="42px"
-                    bottom="0"
+                    right="0"
                     left="0"
+                    bottom="0"
+                    padding="0"
                     display="flex"
                     justifyContent="center"
                     alignItems="center"
