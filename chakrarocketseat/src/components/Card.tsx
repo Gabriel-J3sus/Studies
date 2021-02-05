@@ -25,8 +25,8 @@ function Card({ title, description, soon, borderColor }: CardProps) {
             _hover={title !== "Ignite" ? { transform: "translateY(-7px)" } : { display: 'block' }}
         >
             <Flex
-                width={{sm: "312px", md: "432px", lg: "656px", xl: "311px"}}
-                height={{sm: "auto", xl: "520px"}}
+                width={{sm: "312px", md: "432px", lg: "656px", xl: "200px"}}
+                height={{sm: "auto", xl: "470px"}}
                 align="center"
                 direction="column"
             >

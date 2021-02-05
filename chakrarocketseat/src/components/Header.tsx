@@ -95,7 +95,7 @@ function Header() {
                             marginRight={{base: "0", lg: "12px"}}
                             color="gray.300"
                         >
-                            Gabriel Araújo de Jesus
+                            Avatar
                         </Heading>
                         
                         <Flex 
@@ -108,7 +108,7 @@ function Header() {
                             border="2px solid" 
                             borderColor="gray.300"
                         >
-                            <Image borderRadius="md" src="https://avatars.githubusercontent.com/u/60709667?s=460&u=158d24cfd2d489eb1872b09d2381afc2d88d24e1&v=4" alt="Gabriel"/>
+                            <Image borderRadius="md" src="https://avatars.dicebear.com/4.5/api/male/Cleber%20o%20bonito.svg" alt="Gabriel"/>
                         </Flex>
                     </Flex>
 
