@@ -38,6 +38,7 @@ Created for the purpose of storing everything that I'm studying.
 - [RnLottie](https://github.com/Gabriel-J3sus/Studies/tree/main/rnlottie)
 - [RocketTwitter](https://github.com/Gabriel-J3sus/Studies/tree/main/rockettwitter)
 - [Route-auth](https://github.com/Gabriel-J3sus/Studies/tree/main/route-auth)
+- [Search-component](https://github.com/Gabriel-J3sus/Studies/tree/main/search-component)
 - [Serie-node](https://github.com/Gabriel-J3sus/Studies/tree/main/serie-node)
 - [SkylabNext](https://github.com/Gabriel-J3sus/Studies/tree/main/skylabnext)
 - [Solid-Api](https://github.com/Gabriel-J3sus/Studies/tree/main/solidApi)
