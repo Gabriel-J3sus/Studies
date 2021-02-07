@@ -52,3 +52,4 @@ Created for the purpose of storing everything that I'm studying.
 
 - [PWA-Expo](https://pwa-expo-react-native.netlify.app/)
 - [ChakraRocketseat](https://chakra-ui-rocketseatclone.netlify.app/)
+- [Search-component](https://amifollowingyou.netlify.app/)
