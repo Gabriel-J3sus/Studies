@@ -1,11 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useHistory } from 'react-router-dom';
-import { Heading, Text, Spinner, Flex, Wrap, WrapItem, Avatar, Link } from '@chakra-ui/react';
-import { ArrowBackIcon } from '@chakra-ui/icons';
+import { useColorMode, useColorModeValue, Heading, Text, Spinner, Flex, Wrap, WrapItem, Avatar, Link, Button } from '@chakra-ui/react';
+import { ArrowBackIcon, MoonIcon, SunIcon } from '@chakra-ui/icons';
 
 function User() {
   const userName = useParams();
   const history = useHistory();
+  const { colorMode, toggleColorMode } = useColorMode();
+
+  const primary = useColorModeValue("gray.600", "blue.100");
+  const secondary = useColorModeValue("gray.500", "blue.200");
+  const tertiary = useColorModeValue("gray.700", "blue.50");
 
   const [user, setUser] = useState();
 
@@ -28,7 +33,7 @@ function User() {
           thickness="4px"
           speed="0.80s"
           emptyColor="gray.200"
-          color="blue.500"
+          color={secondary}
         />
       </Flex>
     );
@@ -80,6 +85,13 @@ function User() {
           </WrapItem>
         </Wrap>
 
+        <Button
+          marginBottom={{sm: "12px", md: "15px", lg: "20px"}}
+          onClick={toggleColorMode}
+        >
+          {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
+        </Button>
+
         <Flex
           direction="column"
           align={{base: "left", md: "center"}}
@@ -88,7 +100,7 @@ function User() {
           <Heading
             fontSize={{base: "30px", md: "45px"}}
 
-            color="gray.600"
+            color={primary}
           >
             {user.name}
           </Heading>
@@ -96,15 +108,15 @@ function User() {
           <Text
             marginBottom="25px"
             fontSize={{sm: "20px", md: "25px"}}
-            color="gray.500"
+            color={secondary}
           >
             {user.login}
           </Text>
 
           <Text
-            fontSize={{sm: "20px", lg: "25px"}}
+            fontSize={{sm: "18px", md: "20px", lg: "25px"}}
             textAlign={{sm: "left", md: "center"}}
-            color="gray.700"
+            color={tertiary}
           >{user.bio}</Text>
 
         </Flex>
