@@ -107,7 +107,7 @@ function Search() {
                   marginBottom="3px"
                   padding="8px 6px"
                   borderRadius="4px"
-                  _hover={highlightedIndex === index ? { backgroundColor: "#F5F8FA" } : {}}
+                  _hover={highlightedIndex === index ? { backgroundColor: secondary } : {}}
                 >
                   <Heading
                     fontSize="20px"
