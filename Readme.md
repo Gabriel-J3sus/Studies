@@ -18,6 +18,7 @@ Created for the purpose of storing everything that I'm studying.
 
 - [Tabs](https://github.com/Gabriel-J3sus/Studies/tree/main/Tabs)
 - [Animated-Form](https://github.com/Gabriel-J3sus/Studies/tree/main/animated-form)
+- [AuthTDD](https://github.com/Gabriel-J3sus/Studies/tree/main/authdd)
 - [Authrm](https://github.com/Gabriel-J3sus/Studies/tree/main/authrm)
 - [ChakraForm](https://github.com/Gabriel-J3sus/Studies/tree/main/chakraform)
 - [ChakraRocketseat](https://github.com/Gabriel-J3sus/Studies/tree/main/chakrarocketseat)
