@@ -1,3 +1,50 @@
+const html = document.querySelector("html")
+const checkbox = document.querySelector("input[name=theme]")
+
+checkbox.addEventListener("change", ({ target }) => {
+    target.checked ? ThemeSwitcher.changeColors(darkMode) : ThemeSwitcher.changeColors(initialColors)
+})
+
+const transformKey = key => "--" + key.replace(/([A-Z])/, "-$1").toLowerCase()
+
+const ThemeSwitcher = {
+    getStyle(element, style) {
+        return window.getComputedStyle(element).getPropertyValue(style);
+    },
+
+    changeColors(colors) { 
+        Object.keys(colors).map(key => 
+            html.style.setProperty(transformKey(key), colors[key])    
+        )
+    }
+}
+
+const initialColors = {
+    title: ThemeSwitcher.getStyle(html, "--title"),
+    secondaryTitle: ThemeSwitcher.getStyle(html, "--secondary-title"),
+    positive: ThemeSwitcher.getStyle(html, "--positive"),
+    lightPositive: ThemeSwitcher.getStyle(html, "--light-positive"),
+    darkPositive: ThemeSwitcher.getStyle(html, "--dark-positive"),
+    negative: ThemeSwitcher.getStyle(html, "--negative"),
+    primary: ThemeSwitcher.getStyle(html, "--primary"),
+    secondary: ThemeSwitcher.getStyle(html, "--secondary"),
+    input: ThemeSwitcher.getStyle(html, "--input"),
+    placeholder: ThemeSwitcher.getStyle(html, "--placeholder"),
+}
+
+const darkMode = {
+    title: "#a5adc7",
+    secondaryTitle: "#97a3d3",
+    positive: "#8dfa65",
+    lightPositive: "#3dd705",
+    darkPositive: "#1e1f1e",
+    negative: "#e92929",
+    primary: "#5e5e5e",
+    secondary: "#000000",
+    input: "#667699",
+    placeholder: "#FFF",
+}
+
 const Modal = {
     open() {
         //Abrir modal
