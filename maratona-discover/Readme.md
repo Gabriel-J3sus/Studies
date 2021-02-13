@@ -12,6 +12,10 @@ Evento proporcionado pela Rocketseat, com o intuito de criar novos dev e ensinar
 - [x] CSS
 - [x] Javascript
 
+## 🧠Challenge
+
+- [x] Dark mode
+
 ## 💻 Usage
 
 1. Run using live server.<br />
