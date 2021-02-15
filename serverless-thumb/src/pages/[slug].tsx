@@ -6,6 +6,7 @@ import { GetStaticPropsContext } from "next";
 interface PostProps {
   title: string
   description: string
+  thumbnailUrl: string
   content: string
 }
 
@@ -14,6 +15,7 @@ export default function Post(props: PostProps) {
     <PostLayout 
       title={props.title} 
       description={props.description} 
+      thumbnailUrl={props.thumbnailUrl}
       content={props.content}
     />
   )

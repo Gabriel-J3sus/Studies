@@ -19,15 +19,18 @@ export async function getAllPosts() {
   return posts
 }
 
-export async function getPostBySlug(slug: string) {
+export async function getPostBySlug<T>(slug: T) {
   const fileContent = await import(`../../_posts/${slug}.md`)
 
   const meta = matter(fileContent.default)
   const content = marked(meta.content)   
 
+  const thumbnailUrl = `http://localhost:3000/api/thumbnail.png?title=${meta.data.title}`
+
   return {
     title: meta.data.title, 
     description: meta.data.description, 
+    thumbnailUrl,
     content,
   }
 }
