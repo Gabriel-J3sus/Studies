@@ -28,6 +28,7 @@ Created for the purpose of storing everything that I'm studying.
 - [LocalStorage](https://github.com/Gabriel-J3sus/Studies/tree/main/localstorage)
 - [maratona-discover](https://github.com/Gabriel-J3sus/Studies/tree/main/maratona-discover)
 - [Masterclass-typescript](https://github.com/Gabriel-J3sus/Studies/tree/main/masterclass-typescript)
+- [Next-SSG](https://github.com/Gabriel-J3sus/Studies/tree/main/next-ssg)
 - [Next-Functions](https://github.com/Gabriel-J3sus/Studies/tree/main/nextjs-functions)
 - [Pagination](https://github.com/Gabriel-J3sus/Studies/tree/main/pagination)
 - [Percentage-Reading-Bar](https://github.com/Gabriel-J3sus/Studies/tree/main/percentageReadingBar)
