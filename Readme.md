@@ -42,6 +42,7 @@ Created for the purpose of storing everything that I'm studying.
 - [Route-auth](https://github.com/Gabriel-J3sus/Studies/tree/main/route-auth)
 - [Search-component](https://github.com/Gabriel-J3sus/Studies/tree/main/search-component)
 - [Serie-node](https://github.com/Gabriel-J3sus/Studies/tree/main/serie-node)
+- [Serverless-thumb](https://github.com/Gabriel-J3sus/Studies/tree/main/serverless-thumb)
 - [SkylabNext](https://github.com/Gabriel-J3sus/Studies/tree/main/skylabnext)
 - [Solid-Api](https://github.com/Gabriel-J3sus/Studies/tree/main/solidApi)
 - [Some-more-hooks](https://github.com/Gabriel-J3sus/Studies/tree/main/some-more-hooks)
