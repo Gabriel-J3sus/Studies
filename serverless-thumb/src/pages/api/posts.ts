@@ -25,7 +25,9 @@ export async function getPostBySlug<T>(slug: T) {
   const meta = matter(fileContent.default)
   const content = marked(meta.content)   
 
-  const thumbnailUrl = `http://localhost:3000/api/thumbnail.png?title=${meta.data.title}`
+  const baseUrl = process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'http://localhost:3000'; //else should be your domain
+
+  const thumbnailUrl = `${baseUrl}/api/thumbnail?title=${meta.data.title}`
 
   return {
     title: meta.data.title, 
