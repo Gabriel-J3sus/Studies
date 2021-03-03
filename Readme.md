@@ -30,6 +30,7 @@ Created for the purpose of storing everything that I'm studying.
 - [Masterclass-typescript](https://github.com/Gabriel-J3sus/Studies/tree/main/masterclass-typescript)
 - [Next-SSG](https://github.com/Gabriel-J3sus/Studies/tree/main/next-ssg)
 - [Next-tutorial](https://github.com/Gabriel-J3sus/Studies/tree/main/next-tutorial)
+- [NextJS-basic](https://github.com/Gabriel-J3sus/Studies/tree/main/nextjs-basic)
 - [Next-Functions](https://github.com/Gabriel-J3sus/Studies/tree/main/nextjs-functions)
 - [Next-tutorial-typescript](https://github.com/Gabriel-J3sus/Studies/tree/main/nextjs-tutorial-typescript)
 - [Pagination](https://github.com/Gabriel-J3sus/Studies/tree/main/pagination)
