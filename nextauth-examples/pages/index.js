@@ -6,8 +6,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   const [session, loading] = useSession();
-
-  console.log(session)
+  
   return (
     <div className={styles.container}>
       <Head>
