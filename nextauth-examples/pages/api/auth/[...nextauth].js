@@ -18,7 +18,12 @@ const options = {
         //     },
         //     from: "",
         // })
-    ]
+    ],
+    database: {
+        type: "sqlite",
+        database: ":memory:",
+        synchronize: true,
+    }
 }
 
 export default (req, res) => NextAuth(req, res, options);
