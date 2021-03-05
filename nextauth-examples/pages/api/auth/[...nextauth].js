@@ -4,23 +4,21 @@ import Providers from 'next-auth/providers';
 const options = {
     providers: [
         Providers.GitHub({
-            clientId: "",
-            clientSecret: ""
+            clientId: process.env.GITHUB_ID,
+            clientSecret: process.env.GITHBU_SECRET
         }),
-        Providers.Twitter({
-            clientId: "",
-            clientSecret: ""
-        }),
-        Providers.Email({
-            server: {
-                host: "",
-                port: "",
-                auth: {
-                    user: "",
-                    pass: "",
-                }
-            },
-            from: "",
-        })
+        // Providers.Email({
+        //     server: {
+        //         host: "",
+        //         port: "",
+        //         auth: {
+        //             user: "",
+        //             pass: "",
+        //         }
+        //     },
+        //     from: "",
+        // })
     ]
 }
+
+export default (req, res) => NextAuth(req, res, options);
