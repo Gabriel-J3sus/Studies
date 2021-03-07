@@ -1,42 +1,39 @@
-import { useState, useEffect } from 'react'
-import { useSession } from 'next-auth/client'
+import { useState, useEffect } from "react";
+import { useSession } from "next-auth/client";
 
 export default function Secret() {
-    const [session, loading] = useSession();
+  const [session, loading] = useSession();
+  const [content, setContent] = useState();
 
-    const [content, setContent] = useState();
+  useEffect(() => {
+    const fetchData = async () => {
+      const res = await fetch("/api/secret");
+      const json = await res.json();
 
-    useEffect(() => {
-        const fetchData = async () => {
-            const res = await fetch("/api/secret");
-            const json = await res.json();
+      if (json.content) {
+        setContent(json.content);
+      }
+    };
+    fetchData();
+  }, [session]);
 
-            if (json.content) {
-                setContent(json.content);
-            }
-        }
+  if (typeof window !== "undefined" && loading) return null;
 
-        fetchData();
-    }, [session]);
-
-    if (typeof window !== "undefined" && loading) return <h1>Loading...</h1>;
-
-    if (!session) {
-        return (
-            <main>
-                <div>
-                    <h1>You aren't signed in, please sign in first</h1>
-                </div>
-            </main>
-        )
-    }
-    
+  if (!session) {
     return (
-        <main>
-            <div>
-                <h1> Protected Page </h1>
-                <p>{content}</p>
-            </div>
-        </main>
-    )
+      <main>
+        <div>
+          <h1>You aren't signed in, please sign in first</h1>
+        </div>
+      </main>
+    );
+  }
+  return (
+    <main>
+      <div>
+        <h1> Protected Page</h1>
+        <p>{content}</p>
+      </div>
+    </main>
+  );
 }

@@ -1,12 +1,11 @@
 import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import React from "react";
 import Link from "next/link";
 import { signIn, signOut, useSession } from "next-auth/client";
 
-import styles from "../styles/Home.module.css";
-
 export default function Home() {
   const [session, loading] = useSession();
-  
   return (
     <div className={styles.container}>
       <Head>
@@ -33,5 +32,5 @@ export default function Home() {
         )}
       </main>
     </div>
-  )
+  );
 }
