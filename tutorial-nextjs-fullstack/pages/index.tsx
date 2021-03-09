@@ -1,9 +1,16 @@
-import Head from 'next/head'
+import { signIn, signOut, useSession } from 'next-auth/client'
 
-export default function Home() {
-  return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      
-    </div>
-  )
+export default function Page() {
+  const [ session, loading ] = useSession()
+
+  return <>
+    {!session && <>
+      Not signed in <br/>
+      <button onClick={() => signIn()}>Sign in</button>
+    </>}
+    {session && <>
+      Signed in as {session.user.email} <br/>
+      <button onClick={() => signOut()}>Sign out</button>
+    </>}
+  </>
 }
