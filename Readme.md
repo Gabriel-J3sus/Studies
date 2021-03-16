@@ -42,6 +42,7 @@ Created for the purpose of storing everything that I'm studying.
 - [React-Native-Animations](https://github.com/Gabriel-J3sus/Studies/tree/main/react-native-animations)
 - [React-SWR](https://github.com/Gabriel-J3sus/Studies/tree/main/react-swr)
 - [ReactRef](https://github.com/Gabriel-J3sus/Studies/tree/main/reactref)
+- [React setup](https://github.com/Gabriel-J3sus/Studies/tree/main/reactsetup)
 - [RnLottie](https://github.com/Gabriel-J3sus/Studies/tree/main/rnlottie)
 - [RocketTwitter](https://github.com/Gabriel-J3sus/Studies/tree/main/rockettwitter)
 - [Route-auth](https://github.com/Gabriel-J3sus/Studies/tree/main/route-auth)
