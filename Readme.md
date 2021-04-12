@@ -27,6 +27,7 @@ Created for the purpose of storing everything that I'm studying.
 - [Hooks](https://github.com/Gabriel-J3sus/Studies/tree/main/hooks)
 - [LocalStorage](https://github.com/Gabriel-J3sus/Studies/tree/main/localstorage)
 - [maratona-discover](https://github.com/Gabriel-J3sus/Studies/tree/main/maratona-discover)
+- [maratona-discover-2](https://github.com/Gabriel-J3sus/Studies/tree/main/maratona-discover-2)
 - [Masterclass-typescript](https://github.com/Gabriel-J3sus/Studies/tree/main/masterclass-typescript)
 - [Next-SSG](https://github.com/Gabriel-J3sus/Studies/tree/main/next-ssg)
 - [Next-tutorial](https://github.com/Gabriel-J3sus/Studies/tree/main/next-tutorial)
