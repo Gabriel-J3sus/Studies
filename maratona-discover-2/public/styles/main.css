@@ -7,10 +7,10 @@
 
 /* custom vars */
 :root {
-  --color-background: #F0F2F5;
+  --color-background: #1f1f1f;
   --color-text: #FCFDFF;
 
-  --color-primary: #41414C;
+  --color-primary: #40635b;
   --color-secondary: #F1972C;
   --color-secondary-hover: #FA9C2D;
   
