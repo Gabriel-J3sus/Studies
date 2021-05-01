@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion'
 
 //AnimatePresence - animate elements to get out of the page / it can be used for page transitions
@@ -36,7 +36,13 @@ const childVariants = {
   }
 }
 
-const Order = ({ pizza }) => {
+const Order = ({ pizza, setShowModal }) => {
+  useEffect(() => {
+    setTimeout(() => {
+      setShowModal(true)
+    }, 5000)
+  }, [setShowModal])
+
   return (
     <motion.div 
       className="container order"
