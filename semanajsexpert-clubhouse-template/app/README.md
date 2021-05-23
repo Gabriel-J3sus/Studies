@@ -20,20 +20,20 @@ Marque esse projeto com uma estrela 🌟
 
 ## Checklist Features
 
-- [ ] O app deve funcionar na Web, Android e IOS
+- [x] O app deve funcionar na Web, Android e IOS
 - Login
-  - [ ] Deve ter login com GitHub
-    - [ ] Se houver dados do usuario em localStorage deve ir para lobby direto
+  - [x] Deve ter login com GitHub
+    - [x] Se houver dados do usuario em localStorage deve ir para lobby direto
 
 - Lobby
-  - [ ] Se não houver dados do usuario em localStorage deve voltar para login
+  - [x] Se não houver dados do usuario em localStorage deve voltar para login
   - [x] Mostra todas as salas ativas
   - [x] Atualiza salas em realtime
   - [x] Pode criar uma sala sem topico
   - [x] Pode criar uma sala com topico
   - [x] Pode acessar salas ativas
 - Room
-  - [ ] Se não houver dados do usuario em localStorage deve voltar para login
+  - [x] Se não houver dados do usuario em localStorage deve voltar para login
   - [x] Cria uma sala com um usuário dono
   - [x] Todos usuários futuros entram com perfil de attendees
   - [x] Notifica Lobby sobre atualizações na sala
@@ -41,17 +41,17 @@ Marque esse projeto com uma estrela 🌟
   - [X] Se o dono da sala desconectar, será removida
   - Users
     - Speaker
-      - [ ] Recebe notificação de attendees para se tornarem speakers
+      - [x] Recebe notificação de attendees para se tornarem speakers
       - [X] Atualizam a tela o upgrade de attendee para speaker
-      - [ ] Poderá deixar seu microfone mudo
+      - [x] Poderá deixar seu microfone mudo
       - Se dono da sala
-        - [ ] Pode aprovar attendees a virarem speakers
+        - [x] Pode aprovar attendees a virarem speakers
         - Ao se desconectar 
           - [X] Promove o speaker mais velho da sala
           - [X] Se não houver speaker promove o attendee mais velho da sala
     - Attendee
       - [x] Pode ouvir speakers ativos
-      - [ ] Pode pedir upgrade de perfil ao dono da sala
+      - [x] Pode pedir upgrade de perfil ao dono da sala
         - Ao ser aprovado
-          - [ ] Reinicia todas as suas chamas ativas com os usuarios da sala
-          - [ ] Recebe as permissões do perfil speaker
+          - [x] Reinicia todas as suas chamadas ativas com os usuarios da sala
+          - [x] Recebe as permissões do perfil speaker
