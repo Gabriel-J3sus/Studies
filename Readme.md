@@ -17,6 +17,7 @@ Created for the purpose of storing everything that I'm studying.
 ## 🚀 Projects
 
 - [Tabs](https://github.com/Gabriel-J3sus/Studies/tree/main/Tabs)
+- [Adonis-Users](https://github.com/Gabriel-J3sus/Studies/tree/main/adonis-users)
 - [Animated-Form](https://github.com/Gabriel-J3sus/Studies/tree/main/animated-form)
 - [AuthTDD](https://github.com/Gabriel-J3sus/Studies/tree/main/authdd)
 - [Authrm](https://github.com/Gabriel-J3sus/Studies/tree/main/authrm)
@@ -29,6 +30,7 @@ Created for the purpose of storing everything that I'm studying.
 - [maratona-discover](https://github.com/Gabriel-J3sus/Studies/tree/main/maratona-discover)
 - [maratona-discover-2](https://github.com/Gabriel-J3sus/Studies/tree/main/maratona-discover-2)
 - [Masterclass-typescript](https://github.com/Gabriel-J3sus/Studies/tree/main/masterclass-typescript)
+- [Next-auth-jwt](https://github.com/Gabriel-J3sus/Studies/tree/main/next-auth-jwt)
 - [Next-SSG](https://github.com/Gabriel-J3sus/Studies/tree/main/next-ssg)
 - [Next-tutorial](https://github.com/Gabriel-J3sus/Studies/tree/main/next-tutorial)
 - [NextAuth-Examples](https://github.com/Gabriel-J3sus/Studies/tree/main/nextauth-examples)
