@@ -41,6 +41,7 @@ Created for the purpose of storing everything that I'm studying.
 - [Percentage-Reading-Bar](https://github.com/Gabriel-J3sus/Studies/tree/main/percentageReadingBar)
 - [PerfApp](https://github.com/Gabriel-J3sus/Studies/tree/main/perfapp)
 - [PWA-Expo](https://github.com/Gabriel-J3sus/Studies/tree/main/pwaexpo)
+- [react-chat](https://github.com/Gabriel-J3sus/Studies/tree/main/react-chat)
 - [React-Context-Api](https://github.com/Gabriel-J3sus/Studies/tree/main/react-context-api)
 - [React-Native-Animations](https://github.com/Gabriel-J3sus/Studies/tree/main/react-native-animations)
 - [React-SWR](https://github.com/Gabriel-J3sus/Studies/tree/main/react-swr)
