@@ -45,6 +45,7 @@ Created for the purpose of storing everything that I'm studying.
 - [React-Context-Api](https://github.com/Gabriel-J3sus/Studies/tree/main/react-context-api)
 - [React-Native-Animations](https://github.com/Gabriel-J3sus/Studies/tree/main/react-native-animations)
 - [React-SWR](https://github.com/Gabriel-J3sus/Studies/tree/main/react-swr)
+- [React-Testing](https://github.com/Gabriel-J3sus/Studies/tree/main/react-testing)
 - [ReactRef](https://github.com/Gabriel-J3sus/Studies/tree/main/reactref)
 - [React setup](https://github.com/Gabriel-J3sus/Studies/tree/main/reactsetup)
 - [Refresh-token](https://github.com/Gabriel-J3sus/Studies/tree/main/refresh-token)

@@ -35,21 +35,21 @@ describe('Counter', () => {
         );
       });
 
-      describe('when the incrementor changes to empty string and "+" button is clicked', () => {
-        beforeEach(async () => {
-          user.type(
-            screen.getByLabelText(/Incrementor/),
-            '{selectall}{del}'
-          );
+      // describe('when the incrementor changes to empty string and "+" button is clicked', () => {
+      //   beforeEach(async () => {
+      //     user.type(
+      //       screen.getByLabelText(/Incrementor/),
+      //       '{selectall}{del}'
+      //     );
 
-          user.click(screen.getByRole('button', { name: 'Add to Counter' }))
-          await waitFor(() => screen.getByText('Current Count: 16'))
-        })
+      //     user.click(screen.getByRole('button', { name: 'Add to Counter' }))
+      //     await waitFor(() => screen.getByText('Current Count: 16'))
+      //   })
 
-        it('renders "Current Counter: 16"', () => {
-          expect(screen.getByText('Current Count: 16')).toBeInTheDocument()
-        })
-      })
+      //   it('renders "Current Counter: 16"', () => {
+      //     expect(screen.getByText('Current Count: 16')).toBeInTheDocument()
+      //   })
+      // })
     })
 
     describe('when the incrementor  changes to 25 and "-" button is clicked', () => {
