@@ -1,0 +1,12 @@
+{
+  "name": "test-cypress",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {},
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^8.7.0"
+  }
+}
