@@ -1,0 +1,9 @@
+{
+  "integrationFolder": "cypress/tests",
+  "integration": {
+    "testFiles": "**/*.spec.{js,jsx,tsx,ts}"
+  },
+  "testFiles": "**/*.spec.{js,ts,jsx,tsx}",
+  
+  "video": false
+}
